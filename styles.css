@@ -869,6 +869,7 @@ h3 {
 
 .visitor-map iframe,
 .visitor-map canvas,
+.visitor-map img,
 .visitor-map > div {
   max-width: 100%;
 }
