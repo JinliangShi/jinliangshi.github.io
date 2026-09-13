@@ -859,6 +859,20 @@ h3 {
   font-size: 0.9rem;
 }
 
+.visitor-map {
+  display: grid;
+  width: 100%;
+  min-height: 360px;
+  place-items: center;
+  overflow: hidden;
+}
+
+.visitor-map iframe,
+.visitor-map canvas,
+.visitor-map > div {
+  max-width: 100%;
+}
+
 @media (max-width: 760px) {
   .site-header {
     align-items: flex-start;
@@ -934,6 +948,10 @@ h3 {
 
   .repo-grid {
     grid-template-columns: 1fr;
+  }
+
+  .visitor-map {
+    min-height: 300px;
   }
 
   .list-item {
