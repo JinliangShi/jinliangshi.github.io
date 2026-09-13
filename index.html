@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Jinliang Shi - AI infrastructure, GPU sparse computing, and machine learning systems">
+    <title>Jinliang Shi | Personal Homepage</title>
+    <link rel="stylesheet" href="styles.css?v=20260913-balanced-timeline">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Back to home">Jinliang Shi</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#about-title" data-i18n data-en="About" data-zh="关于我">About</a>
+        <a href="#interests-title" data-i18n data-en="Interests" data-zh="研究兴趣">Interests</a>
+        <a href="#publications-title" data-i18n data-en="Publications" data-zh="论文发表">Publications</a>
+        <a href="#talks-title" data-i18n data-en="Talks" data-zh="学术报告">Talks</a>
+        <a href="#experience-title" data-i18n data-en="Experience" data-zh="经历">Experience</a>
+        <a href="assets/Jinliang-Shi-CV-zh.pdf" target="_blank" rel="noreferrer" data-i18n data-en="CV" data-zh="简历">CV</a>
+        <a href="#github-title">GitHub</a>
+        <button class="language-toggle" type="button" aria-label="Toggle language">中文</button>
+        <button class="theme-toggle" type="button" aria-label="Toggle color theme">
+          <span aria-hidden="true">◐</span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero section">
+        <div class="avatar">
+          <img src="me.JPG" alt="Portrait of Jinliang Shi">
+        </div>
+        <h1>Jinliang Shi</h1>
+        <p class="tagline" data-i18n data-en="HPC for Machine Learning" data-zh="面向机器学习的高性能计算">HPC for Machine Learning</p>
+        <div class="social-links" aria-label="Profile links">
+          <a href="#email">Email</a>
+          <a href="https://github.com/JinliangShi" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://scholar.google.com/citations?user=VDeq-yYAAAAJ&hl=zh-CN" target="_blank" rel="noreferrer">Scholar</a>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <h2 id="about-title" class="page-title" data-i18n data-en="About me" data-zh="关于我">About me</h2>
+        <div class="prose">
+          <p
+            data-i18n
+            data-en="I am a Ph.D. candidate in Computer Science and Technology at Beijing University of Posts and Telecommunications, expected to graduate in June 2027. My research focuses on high-performance computing, GPU sparse computing, and efficient large-model training and inference systems."
+            data-zh="我是北京邮电大学计算机科学与技术专业博士生，预计于 2027 年 6 月毕业。我的研究方向包括高性能计算、GPU稀疏计算与高效大模型训推系统。"
+          >
+            I am a Ph.D. candidate in Computer Science and Technology at Beijing University of Posts and
+            Telecommunications, expected to graduate in June 2027. My research focuses on high-performance
+            computing, GPU sparse computing, and efficient large-model training and
+            inference systems.
+          </p>
+        </div>
+      </section>
+
+      <section id="interests" class="section">
+        <h2 id="interests-title" class="page-title" data-i18n data-en="Interests" data-zh="研究兴趣">Interests</h2>
+        <ul class="interest-list">
+          <li data-i18n data-en="High-performance sparse operators on GPU" data-zh="GPU 高性能稀疏算子">High-performance sparse operators on GPU</li>
+          <li data-i18n data-en="Large-model training and inference systems" data-zh="大模型训练与推理系统">Large-model training and inference systems</li>
+          <li data-i18n data-en="Graph Neural Network Acceleration" data-zh="图神经网络加速">Graph Neural Network Acceleration</li>
+        </ul>
+      </section>
+
+      <section id="publications" class="section">
+        <h2 id="publications-title" class="page-title" data-i18n data-en="Publications" data-zh="论文发表">Publications</h2>
+        <h3 class="subsection-title publication-subsection" data-i18n data-en="First-Author Publications" data-zh="第一作者论文">First-Author Publications</h3>
+        <div class="publication-list">
+          <article class="publication-item">
+            <p class="publication-authors">
+              <span class="publication-tag">[SC '26]</span>
+              <span class="me">Jinliang Shi</span><span class="coauthors">, Shigang Li</span>
+            </p>
+            <p class="publication-title">
+              FastInfer: Breaking the Low-to-Moderate Sparsity Barrier for Efficient LLM Inference
+            </p>
+            <p class="publication-links">
+              <span class="publication-meta">[CCF-A]</span>
+              <a href="https://github.com/ParCIS/FastInfer" target="_blank" rel="noreferrer">[Code]</a>
+            </p>
+          </article>
+
+          <article class="publication-item">
+            <p class="publication-authors">
+              <span class="publication-tag">[TPDS '26]</span>
+              <span class="me">Jinliang Shi</span><span class="coauthors">, Shigang Li, Rongtian Fu, Xueying Wang, Youxuan Xu, Tong Wu</span>
+            </p>
+            <p class="publication-title">
+              UltraGNN: A Sparse-Operator-Aware Framework for Accelerating Graph Neural Networks on Tensor Cores
+            </p>
+            <p class="publication-links">
+              <span class="publication-meta">[CCF-A]</span>
+              <a href="https://github.com/ParCIS/UltraGNN" target="_blank" rel="noreferrer">[Code]</a>
+            </p>
+          </article>
+
+          <article class="publication-item">
+            <p class="publication-authors">
+              <span class="publication-tag">[PPoPP '25]</span>
+              <span class="me">Jinliang Shi</span><span class="coauthors">, Shigang Li, Youxuan Xu, Rongtian Fu, Xueying Wang, Tong Wu</span>
+            </p>
+            <p class="publication-title">
+              FlashSparse: Minimizing Computation Redundancy for Fast Sparse Matrix Multiplications on Tensor Cores
+            </p>
+            <p class="publication-links">
+              <span class="publication-meta">[CCF-A]</span>
+              <a href="https://dl.acm.org/doi/epdf/10.1145/3710848.3710858" target="_blank" rel="noreferrer">[Paper]</a>
+              <a href="https://github.com/ParCIS/FlashSparse" target="_blank" rel="noreferrer">[Code]</a>
+            </p>
+          </article>
+
+          <article class="publication-item">
+            <p class="publication-authors">
+              <span class="publication-tag">[Parallel Computing '23]</span>
+              <span class="me">Jinliang Shi</span><span class="coauthors">, Dewu Chen, Jiabi Liang, Lin Li, Yue Lin, Jianjiang Li</span>
+            </p>
+            <p class="publication-title">
+              New YARN sharing GPU based on graphics memory granularity scheduling
+            </p>
+            <p class="publication-links">
+              <span class="publication-meta">[CCF-B]</span>
+              <a href="https://www.sciencedirect.com/science/article/pii/S0167819123000443" target="_blank" rel="noreferrer">[Paper]</a>
+            </p>
+          </article>
+
+          <article class="publication-item">
+            <p class="publication-authors">
+              <span class="publication-tag">[Under Evaluation]</span>
+              <span class="me">Jinliang Shi</span><span class="coauthors">, Shigang Li, Youxuan Xu, Xueying Wang, Rongtian Fu, Zhi Ma, Tong Wu</span>
+            </p>
+            <p class="publication-title">
+              Libra: Unleashing GPU Heterogeneity for High-Performance Sparse Matrix Multiplication
+            </p>
+            <p class="publication-links">
+              <a href="https://arxiv.org/abs/2506.22714" target="_blank" rel="noreferrer">[Paper]</a>
+              <a href="https://github.com/ParCIS/Libra" target="_blank" rel="noreferrer">[Code]</a>
+            </p>
+          </article>
+
+        </div>
+
+        <h3 class="subsection-title publication-subsection" data-i18n data-en="Other Publications" data-zh="非第一作者论文">Other Publications</h3>
+        <div class="publication-list">
+          <article class="publication-item">
+            <p class="publication-authors">
+              <span class="publication-tag">[HPDC '26]</span>
+              <span class="coauthors">Rongtian Fu, Shigang Li, Youxuan Xu, Tong Wu, Zhi Ma, and </span><span class="me">Jinliang Shi</span>
+            </p>
+            <p class="publication-title">Omnia: Efficient RAG Serving through Speculative Scheduling</p>
+            <p class="publication-links"><span class="publication-meta">[CCF-A]</span> <a href="https://dl.acm.org/doi/full/10.1145/3806645.3807814" target="_blank" rel="noreferrer">[Paper]</a></p>
+          </article>
+
+          <article class="publication-item">
+            <p class="publication-authors">
+              <span class="publication-tag">[Parallel Computing '24]</span>
+              <span class="coauthors">Jianjiang Li, Lin Li, Qingwei Wang, Wei Xue, Jiabi Liang, and </span><span class="me">Jinliang Shi</span>
+            </p>
+            <p class="publication-title">Parallel Optimization and Application of Unstructured Sparse Triangular Solver on New Generation of Sunway Architecture</p>
+            <p class="publication-links"><span class="publication-meta">[CCF-B]</span> <a href="https://dl.acm.org/doi/10.1016/j.parco.2024.103080" target="_blank" rel="noreferrer">[Paper]</a></p>
+          </article>
+        </div>
+      </section>
+
+      <section id="talks" class="section">
+        <h2 id="talks-title" class="page-title" data-i18n data-en="Talks" data-zh="学术报告">Talks</h2>
+        <div class="talk-list">
+          <article class="talk-item">
+            <time>2026.11.15–20</time>
+            <div>
+              <h3>FastInfer: Breaking the Low-to-Moderate Sparsity Barrier for Efficient LLM Inference</h3>
+              <p data-i18n data-en="SC '26 · Chicago, USA" data-zh="国际高性能计算、网络、存储与分析大会（SC '26）· 美国芝加哥">SC '26 · Chicago, USA</p>
+            </div>
+          </article>
+          <article class="talk-item">
+            <time>2025.08.14–16</time>
+            <div>
+              <h3>FlashSparse: Minimizing Computation Redundancy for Fast Sparse Matrix Multiplications on Tensor Cores</h3>
+              <p data-i18n data-en="HPC China '25 · Ordos, China" data-zh="2025 CCF 全国高性能计算学术年会（HPC China '25）· 中国鄂尔多斯">HPC China '25 · Ordos, China</p>
+            </div>
+          </article>
+          <article class="talk-item">
+            <time>2025.03.01–07</time>
+            <div>
+              <h3>FlashSparse: Minimizing Computation Redundancy for Fast Sparse Matrix Multiplications on Tensor Cores</h3>
+              <p data-i18n data-en="PPoPP '25 · Las Vegas, USA" data-zh="第 30 届并行程序设计原理与实践年度研讨会（PPoPP '25）· 美国拉斯维加斯">PPoPP '25 · Las Vegas, USA</p>
+            </div>
+          </article>
+          <article class="talk-item">
+            <time>2024.11.27–12.01</time>
+            <div>
+              <h3>FlashSparse: Minimizing Computation Redundancy for Fast Sparse Matrix Multiplications on Tensor Cores</h3>
+              <p data-i18n data-en="2nd Youth Symposium on High-Performance Computing · Chongqing, China" data-zh="第二届高性能计算青年讨论研讨会 · 中国重庆">2nd Youth Symposium on High-Performance Computing · Chongqing, China</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--
+      <section id="projects" class="section">
+        <h2 id="projects-title" class="page-title" data-i18n data-en="Selected Projects" data-zh="项目经历">Selected Projects</h2>
+        <div class="detail-list">
+          <article class="detail-item">
+            <div class="detail-heading"><h3 data-i18n data-en="High-Performance Sparse Algorithm Library for Deep Learning" data-zh="面向深度学习的高性能稀疏算法库研究与开发">High-Performance Sparse Algorithm Library for Deep Learning</h3><time>2024.01–2026.03</time></div>
+            <p data-i18n data-en="National Natural Science Foundation project. Developed FastInfer for unstructured-sparse LLM inference, proposed new sparse encodings and storage formats, and built UltraGNN by reformulating GNN message passing as Tensor Core-friendly sparse matrix computation." data-zh="国家自然科学基金项目。研发非结构化稀疏大模型推理框架 FastInfer，提出新的稀疏编码范式与存储格式，并将 GNN 消息生成与聚合重构为 Tensor Core 友好的稀疏矩阵计算。">National Natural Science Foundation project. Developed FastInfer for unstructured-sparse LLM inference, proposed new sparse encodings and storage formats, and built UltraGNN by reformulating GNN message passing as Tensor Core-friendly sparse matrix computation.</p>
+          </article>
+          <article class="detail-item">
+            <div class="detail-heading"><h3 data-i18n data-en="GNN Acceleration Research Collaboration" data-zh="GNN 加速研究技术合作项目">GNN Acceleration Research Collaboration</h3><time>2023.09–2025.01</time></div>
+            <p data-i18n data-en="Huawei university–industry collaboration. Built high-performance SpMM and SDDMM sparse operators on NVIDIA Tensor Cores; developed FlashSparse and the heterogeneous Libra operator library that coordinates Tensor Cores and CUDA Cores." data-zh="华为校企合作项目。基于 NVIDIA Tensor Core 开发高性能 SpMM、SDDMM 稀疏算子；研发 FlashSparse 与协同利用 Tensor Core、CUDA Core 的异构 Libra 算子库。">Huawei university–industry collaboration. Built high-performance SpMM and SDDMM sparse operators on NVIDIA Tensor Cores; developed FlashSparse and the heterogeneous Libra operator library that coordinates Tensor Cores and CUDA Cores.</p>
+          </article>
+          <article class="detail-item">
+            <div class="detail-heading"><h3 data-i18n data-en="Intelligent Hadoop Ecosystem Platform" data-zh="Hadoop 生态智能化平台建设">Intelligent Hadoop Ecosystem Platform</h3><time>2020.10–2022.09</time></div>
+            <p data-i18n data-en="Developed GPU resource scheduling for Hadoop YARN, enabled distributed training for Keras and TensorFlow workloads, and deployed a Hive data warehouse and GPU scheduling platform for the Research Institute of Petroleum Exploration & Development." data-zh="为中国石油勘探开发研究院的 Hadoop YARN 开发 GPU 资源调度功能，支持 Keras、TensorFlow 等深度学习任务分布式训练，并完成 Hive 数据仓库与 GPU 调度平台部署。">Developed GPU resource scheduling for Hadoop YARN, enabled distributed training for Keras and TensorFlow workloads, and deployed a Hive data warehouse and GPU scheduling platform for the Research Institute of Petroleum Exploration & Development.</p>
+          </article>
+        </div>
+      </section>
+
+      -->
+      <section id="experience" class="section">
+        <h2 id="experience-title" class="page-title" data-i18n data-en="Experience & Education" data-zh="经历与教育">Experience & Education</h2>
+        <div class="timeline" aria-label="Experience and education timeline">
+          <article class="timeline-item">
+            <span class="timeline-node" aria-hidden="true"></span>
+            <div class="timeline-card">
+              <span class="timeline-badge"><img src="logo/tencent.png" alt="Tencent logo"></span>
+              <p class="timeline-period" data-i18n data-en="Jul. 2026 – Sep. 2026" data-zh="2026.07 – 2026.09">Jul. 2026 – Sep. 2026</p>
+              <h3><span data-i18n data-en="Large-Model Training Acceleration Intern " data-zh="大模型训练加速实习生 ">Large-Model Training Acceleration Intern </span><span class="timeline-org" data-i18n data-en="@ Tencent" data-zh="@ 腾讯科技（北京）有限公司">@ Tencent</span></h3>
+              <p class="timeline-highlight" data-i18n data-en="★ Qingyun Top Talent Program" data-zh="★ 青云顶尖人才计划">★ Qingyun Top Talent Program</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-node" aria-hidden="true"></span>
+            <div class="timeline-card">
+              <span class="timeline-badge"><img src="logo/hauwei.png" alt="Huawei logo"></span>
+              <p class="timeline-period">2023.10 – 2024.11</p>
+              <h3><span data-i18n data-en="GNN Model Operator Development " data-zh="图神经网络模型算子开发 ">GNN Model Operator Development </span><span class="timeline-org" data-i18n data-en="@ Huawei" data-zh="@ 华为技术有限公司">@ Huawei</span></h3>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-node" aria-hidden="true"></span>
+            <div class="timeline-card">
+              <span class="timeline-badge"><img src="logo/bupt.png" alt="BUPT logo"></span>
+              <p class="timeline-period">2023.09 – 2027.06</p>
+              <h3><span data-i18n data-en="Ph.D. in Computer Science & Technology " data-zh="计算机科学与技术博士 ">Ph.D. in Computer Science & Technology </span><span class="timeline-org" data-i18n data-en="@ Beijing University of Posts and Telecommunications" data-zh="@ 北京邮电大学">@ Beijing University of Posts and Telecommunications</span></h3>
+              <p data-i18n data-en="Advisor: Prof. Shigang Li" data-zh="导师：李士刚教授">Advisor: Prof. Shigang Li</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-node" aria-hidden="true"></span>
+            <div class="timeline-card">
+              <span class="timeline-badge"><img src="logo/baidu.png" alt="Baidu logo"></span>
+              <p class="timeline-period">2021.06 – 2021.08</p>
+              <h3><span data-i18n data-en="Cloud Computing Development Intern " data-zh="云计算开发实习生 ">Cloud Computing Development Intern </span><span class="timeline-org" data-i18n data-en="@ Baidu" data-zh="@ 百度在线网络技术（北京）有限公司">@ Baidu</span></h3>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-node" aria-hidden="true"></span>
+            <div class="timeline-card">
+              <span class="timeline-badge"><img src="logo/ustb.png" alt="USTB logo"></span>
+              <p class="timeline-period">2020.09 – 2023.06</p>
+              <h3><span data-i18n data-en="M.S. in Computer Science & Technology " data-zh="计算机科学与技术硕士 ">M.S. in Computer Science & Technology </span><span class="timeline-org" data-i18n data-en="@ University of Science and Technology Beijing" data-zh="@ 北京科技大学">@ University of Science and Technology Beijing</span></h3>
+              <p data-i18n data-en="Advisor: Prof. Jianjiang Li" data-zh="导师：李建江教授">Advisor: Prof. Jianjiang Li</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-node" aria-hidden="true"></span>
+            <div class="timeline-card">
+              <span class="timeline-badge"><img src="logo/农大.png" alt="Hebei Agricultural University logo"></span>
+              <p class="timeline-period">2016.09 – 2020.06</p>
+              <h3><span data-i18n data-en="B.S. in Computer Science & Technology " data-zh="计算机科学与技术本科 ">B.S. in Computer Science & Technology </span><span class="timeline-org" data-i18n data-en="@ Hebei Agricultural University" data-zh="@ 河北农业大学">@ Hebei Agricultural University</span></h3>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="github" class="section">
+        <h2 id="github-title" class="page-title">GitHub</h2>
+        <div class="repo-grid">
+          <a class="repo-card" href="https://github.com/ParCIS/FlashSparse" target="_blank" rel="noreferrer">
+            <div class="repo-heading"><h3><span>ParCIS/</span>FlashSparse</h3><span class="repo-type">Project</span></div>
+            <p data-i18n data-en="Fast sparse matrix multiplications on Tensor Cores through Swap-and-Transpose mapping." data-zh="通过 Swap-and-Transpose 映射降低 Tensor Core 稀疏矩阵乘法的冗余计算。">Fast sparse matrix multiplications on Tensor Cores through Swap-and-Transpose mapping.</p>
+            <div class="repo-meta"><span><i class="language-dot cuda"></i>CUDA</span><span aria-label="Stars">★ 39</span><span aria-label="Forks">⑂ 7</span></div>
+          </a>
+          <a class="repo-card" href="https://github.com/ParCIS/Libra" target="_blank" rel="noreferrer">
+            <div class="repo-heading"><h3><span>ParCIS/</span>Libra</h3><span class="repo-type">Project</span></div>
+            <p data-i18n data-en="Unleashing GPU heterogeneity for high-performance sparse matrix multiplication." data-zh="利用 GPU 异构计算能力实现高性能稀疏矩阵乘法。">Unleashing GPU heterogeneity for high-performance sparse matrix multiplication.</p>
+            <div class="repo-meta"><span><i class="language-dot cpp"></i>C++</span><span aria-label="Stars">★ 2</span><span aria-label="Forks">⑂ 1</span></div>
+          </a>
+          <a class="repo-card" href="https://github.com/ParCIS/FastInfer" target="_blank" rel="noreferrer">
+            <div class="repo-heading"><h3><span>ParCIS/</span>FastInfer</h3><span class="repo-type">Project</span></div>
+            <p data-i18n data-en="Breaking the low-to-moderate sparsity barrier for efficient LLM inference." data-zh="面向高效大模型推理，突破中低稀疏度加速瓶颈。">Breaking the low-to-moderate sparsity barrier for efficient LLM inference.</p>
+            <div class="repo-meta"><span><i class="language-dot cuda"></i>CUDA</span><span aria-label="Stars">★ 0</span><span aria-label="Forks">⑂ 1</span></div>
+          </a>
+          <a class="repo-card" href="https://github.com/ParCIS/UltraGNN" target="_blank" rel="noreferrer">
+            <div class="repo-heading"><h3><span>ParCIS/</span>UltraGNN</h3><span class="repo-type">Project</span></div>
+            <p data-i18n data-en="A sparse-operator-aware framework for accelerating graph neural networks on Tensor Cores." data-zh="面向 Tensor Core 的稀疏算子感知图神经网络加速框架。">A sparse-operator-aware framework for accelerating graph neural networks on Tensor Cores.</p>
+            <div class="repo-meta"><span><i class="language-dot cpp"></i>C++</span><span aria-label="Stars">★ 0</span><span aria-label="Forks">⑂ 1</span></div>
+          </a>
+        </div>
+      </section>
+
+      <!--
+      <section class="section">
+        <h2 class="page-title" data-i18n data-en="Patents & Honors" data-zh="专利与荣誉">Patents & Honors</h2>
+        <div class="two-column-list">
+          <div><h3 data-i18n data-en="Patents" data-zh="专利">Patents</h3><ul><li data-i18n data-en="Data processing method, apparatus, and system — Huawei; student first inventor; preliminary examination passed." data-zh="数据处理方法、装置和系统 — 华为技术转让；学生第一发明人；已获初步审查合格通知书。">Data processing method, apparatus, and system — Huawei; student first inventor; preliminary examination passed.</li><li data-i18n data-en="Hybrid task scheduling method and equipment on TCU and CUDA Cores — BUPT; student first inventor; granted." data-zh="TCU 与 CUDA 核心上混合计算任务调度方法及设备 — 北京邮电大学；学生第一发明人；已授权。">Hybrid task scheduling method and equipment on TCU and CUDA Cores — BUPT; student first inventor; granted.</li></ul></div>
+          <div><h3 data-i18n data-en="Honors" data-zh="荣誉">Honors</h3><ul><li data-i18n data-en="National Scholarship for Doctoral Students, BUPT (2025)" data-zh="北京邮电大学博士研究生国家奖学金（2025）">National Scholarship for Doctoral Students, BUPT (2025)</li><li data-i18n data-en="BUPT's first PPoPP paper, selected as a College of Computer Science top-ten news story (2025)" data-zh="北京邮电大学首篇 PPoPP 论文，入选计算机学院年度十大新闻（2025）">BUPT's first PPoPP paper, selected as a College of Computer Science top-ten news story (2025)</li><li data-i18n data-en="First-class Academic Scholarship, BUPT (2025)" data-zh="北京邮电大学一等学业奖学金（2025）">First-class Academic Scholarship, BUPT (2025)</li></ul></div>
+        </div>
+      </section>
+
+      -->
+      <section id="contact" class="section contact">
+        <h2 class="page-title" data-i18n data-en="Contact" data-zh="联系方式">Contact</h2>
+        <p id="email" class="email-line">
+          Email:
+          <a href="mailto:shijinliang@bupt.edu.cn">shijinliang@bupt.edu.cn</a>
+          /
+          <a href="mailto:sjlustb@163.com">sjlustb@163.com</a>
+          <br>
+          <span data-i18n data-en="Phone: " data-zh="电话：">Phone: </span><a href="tel:+8615603381691">+86 156 0338 1691</a>
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Jinliang Shi. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
